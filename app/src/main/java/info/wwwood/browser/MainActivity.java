@@ -22,6 +22,10 @@ public class MainActivity extends AppCompatActivity {
             main_wvNavegador.setWebViewClient(new WebViewClient()); // perquè les redireccions les gestioni el propi browser
             main_wvNavegador.loadUrl(urlString);
 
+            /***********SI VOLEM CREAR NOSALTRES UN HTML HO PODEM PASSAR AIXÍ **************************/
+            //main_wvNavegador.loadData("<html><body><h1>Hola</h1></body></html>","text/html","utf-8");
+            /********************************************************************************************/
+
         }
 
        // main_wbNavegador.loadUrl(data);
